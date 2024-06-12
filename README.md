@@ -9,22 +9,7 @@ This is a FastAPI-based backend service for managing grocery products. The servi
 - **Update Product Category**: Update the category of an existing product.
 - **Database Initialization**: Automatically creates the necessary database table and seeds it with mock data.
 
-## Project Structure
 
-groceries-back/
-│
-├── main.py                # The main FastAPI application
-├── database.py            # Database connection and table creation
-├── models/
-│   ├── product.py         # Product model
-│   └── category.py        # Category enumeration
-├── dtos/
-│   ├── product_dto.py     # Data Transfer Objects for products
-│   └── category_dto.py    # Data Transfer Objects for categories
-├── mock_products.py       # Mock data for seeding the database
-├── requirements.txt       # Project dependencies
-├── Dockerfile             # Docker configuration
-└── README.md              # Project documentation
 
 ## How to Run
 
