@@ -16,26 +16,35 @@ This is a FastAPI-based backend service for managing grocery products. The servi
 ### Normal Method
 
 1. **Clone the repository:**
-    ```git clone https://github.com/TheXtn/groceries-back.git
+    ```
+    git clone https://github.com/TheXtn/groceries-back.git
     cd groceries-back
+     ```
 2. **Install the dependencies:**
-    ```pip install -r requirements.txt
+    ```
+    pip install -r requirements.txt
+     ```
 3. **Run using fastapi**
-    ```fastapi dev main.py
-    
+    ```
+    fastapi dev main.py
+     ```
 ### Docker Method
 
 1. **Clone the repository:**
-    ```git clone https://github.com/TheXtn/groceries-back.git
+    ```
+    git clone https://github.com/TheXtn/groceries-back.git
     cd groceries-back
+     ```
 
 2. **Build the Docker image:**
-    ```docker build -t groceries-back .
-
+    ```
+    docker build -t groceries-back .
+     ```
 
 3. **Run the Docker container:**
-    docker run -d -p 8000:8000 groceries-back
-
+     ```
+     docker run -d -p 8000:8000 groceries-back
+         ```
 ## API Endpoints
 
 - **GET /products**: Retrieve all products or filter by category.
