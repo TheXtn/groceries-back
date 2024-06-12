@@ -2,7 +2,7 @@
 from enum import Enum
 
 class Category(str, Enum):
-    fruits = "fruits"
-    meats = "meats"
-    vegetables = "vegetables"
-    all = "all"
+    Fruits = "Fruits"
+    Meats = "Meats"
+    Vegetables = "Vegetables"
+    All = "All"

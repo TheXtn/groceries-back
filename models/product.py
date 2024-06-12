@@ -1,6 +1,5 @@
 
 from pydantic import BaseModel
-from enum import Enum
 
 from models.category import Category
 
